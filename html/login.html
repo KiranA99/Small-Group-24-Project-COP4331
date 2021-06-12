@@ -1,0 +1,63 @@
+<html>
+ <body style="background: #780206;
+            background: -webkit-linear-gradient(to bottom,#0099f7, #f11712);
+            background: linear-gradient(to bottom, #0099f7, #f11712);"> 
+
+<link rel ="stylesheet" href="css/login.css">
+<title>Login</title>
+  <script type="text/javascript" src="js/md5.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+ input[type=text]:focus{
+        background-color:  #e41f1f;
+           -webkit-transition-duration: 0.4s; 
+            transition-duration: 0.4s;
+ 
+          } 
+          input[type=password]:focus{
+        background-color: #e41f1f;
+           -webkit-transition-duration: 0.4s; 
+            transition-duration: 0.4s;
+          } 
+
+      input[type=text]{
+      border-radius:5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+    }
+      input[type=password]{
+      border-radius:5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+    }
+
+    </style>
+
+<h3>
+<div class = "rectangle">
+
+
+  <div class = "rec1">
+<img src = "./images/superman2.png" class = "logo"> 
+<img src = "./images/superman2.png" class = "logo2"> 
+        <h1 style = "color: #F5F5F5; font-size: 30px">   Super Contacts Login </h1>
+
+        <div class = "rec2">
+
+        <p style = "font-size: 17px ; font-family: 'Roboto' ; color: #F5F5F5 ;text-align:center ;">Username</p>
+            <input type = "text" id = "username" placeholder="Username">
+            <p style = "font-size: 17px ; font-family: 'Roboto' ; color:#F5F5F5;text-align:center ;">Password</p>
+            <input type = "password" id = "password" placeholder="Password"> 
+
+<p> <button type="button" id="loginButton" class="buttons" onclick="attemptLogin();">  <i class="material-icons">login</i> </button> </p>           
+        <div class= "rec3">
+        <a href = "Register.html" style ="color: #F5F5F5 ; font-size: 12px">Don't have an account? Register here!</a>
+                </div>
+        </div>
+    </div>
+</div>
+
+</h3>
