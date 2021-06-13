@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body style="
+background: #0099F7;
+background: -webkit-linear-gradient(to top, #F11712, #0099F7);
+background: linear-gradient(to top, #F11712,#0099F7) fixed;">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/desktop1.css">
+<title>Register</title>
+<script type="text/javascript" src="js/md5.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+
+<style>
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    input[type=text] {
+        width: 85%;
+        height: 40px;
+        padding: 12px 20px;
+        margin: 8px 96px;
+        box-sizing: border-box;
+        border:0px solid;
+        border-radius: 4px;
+        border-color: white;
+        border-radius: 4px;
+    }
+    input[type=text]:focus{
+        background-color: #ed1916;
+    }
+    
+    label {
+        color: white;
+        display: inline-block;
+    } 
+</style>
+
+</head>
+<h1>
+    Register
+</h1>
+<h3>
+
+    <div class="pb"></div>
+    <div class="form-group">
+        <label>Username</label>
+        <input type="text" id="username" class="form-control input-lg" />
+    </div>
+    &nbsp;
+    <div class="form-group2">
+        <label>Password</label>
+        <input type="text" id="password" class="form-control2 input-lg" />
+    </div>
+    &nbsp;
+    <div class="form-group3">
+        <label>Confirm Password</label>
+        <input type="text" id="confpw" class="form-control3 input-lg" />
+    </div>
+    &nbsp;
+    <div class="form-group4">
+        <label>First Name</label>
+        <input type="text" id="first_name" class="form-control4 input-lg" />
+    </div>
+    &nbsp;
+    <div class="form-group5">
+        <label>Last Name</label>
+        <input type="text" id="last_name" class="form-control5 input-lg" />
+    </div>
+    
+    <div style="text-align:center">  
+        <button type="button" id="registerButton" class="button" onclick="attemptRegister();"> Register </button> 
+    </div>
+    <div style="text-align:center"> 
+		  <a href = "login.html" style ="color: #F5F5F5 ; font-size: 12px">Return to login page</a>
+    </div>
+
+</h3>
+
+
+</body>
+</html>
